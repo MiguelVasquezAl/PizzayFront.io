@@ -81,7 +81,6 @@ body {
   height: 350px;
   background-color: white;
   border-radius: 10px;
-  /* border: 3px solid #222222; */
 }
 .contenido_lista {
   display: flex;
