@@ -37,22 +37,79 @@ header {
 a {
   color: #f3f3f3;
 }
+body {
+  background-color: #d8d8d8;
+}
 
 /* Estilos de contenido */
-.contenido {
+
+/* body {
+  height: 100vh;
+} */
+.main {
   display: flex;
   justify-content: center;
-  border: 3px solid #222222;
-  margin-top: 10rem;
+  /* border: 3px solid #222222; */
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 8rem;
+  align-items: center;
+  /* border: 3px solid #f70000; */
+  gap: 5px;
 }
-.card1 {
+.carduno {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: start;
+  /* justify-content: center; */
   width: 490px;
-  border: 3px solid #222222;
-  background-image: url("/img/delivery.jpg");
-  /* hacer que la imagen de fondo ocupe todo el espacio */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 350px;
+  /* border: 3px solid #222222; */
+  background-image: url(/img/delivery.jpg);
+  padding-top: 20px;
+  padding-left: 20px;
+  gap: 6px;
+  border-radius: 10px;
+}
+.carddos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 490px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  /* border: 3px solid #222222; */
+}
+.contenido_lista {
+  display: flex;
+  position: relative;
+  left: -50px;
+}
+.final {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.pedido {
+  position: relative;
+  bottom: 50px;
+}
+.imagen {
+  display: flex;
+  position: relative;
+  left: 85px;
+}
+.rojo {
+  color: red;
+}
+.blanco {
+  color: white;
 }
 
 /* Estilo footer */
